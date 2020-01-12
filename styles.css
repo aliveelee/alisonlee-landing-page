@@ -1,0 +1,26 @@
+/* BASCIS */
+
+body {
+	background-color:palegoldenrod;
+}
+
+h3 {
+	color:violet;
+}
+
+p {
+	line-height:25px;
+	font-family:arial;
+}
+
+/* CLASSES ALONE */
+
+headerbox {
+  background:papayawhip;
+	width:1500px;
+	height:800px;
+  margin: 5%;
+	padding: 10%;
+}
+
+/* COMBOS OF CLASSES */
