@@ -1,0 +1,58 @@
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+}
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+} 
+
+
+
+/* BASCIS */
+
+body {
+	background-color:palegoldenrod;
+	font-family: 'Noto Sans', sans-serif;
+}
+h1 {
+	color:violet;
+}
+p {
+	line-height:25px;
+	font-family:arial;
+}
+footer {
+	clear: both;
+}
+
+
+/* CLASSES ALONE */
+
+.bigbox {
+  	background-color:papayawhip;
+	width:40%;
+	height:50%;
+  	margin: 10%;
+	padding: 5%;
+	float:left;
+}
+.flexContainer {
+	display: flex;
+	display: -webkit-flex;
+	flex-direction: row;
+	-webkit-flex-direction: row;
+	-webkit-align-content: space-between;
+	align-content: space-between;
+	width: 40%;
+	background-color: violet;
+}
+.flexItem {
+	margin: auto;
+}
+
+/* COMBOS OF CLASSES */
