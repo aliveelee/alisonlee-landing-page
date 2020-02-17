@@ -14,13 +14,19 @@
 
 /*-----BASCIS------*/
 
+html {
+  background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(247,202,18,1) 100%) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
 body {
-	background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(247,202,18,1) 100%);
 	color: #333D3C;
 	font-family: 'Work Sans', sans-serif;
 	font-size: 18px;
 }
-p {
+p, footer {
 	line-height: 25px;
 }
 footer {
@@ -113,12 +119,14 @@ nav {
 }
 /*-----RESPONSIVENESS MEDIA QUERIES----*/
 
-@media only screen and (max-width: 600px)  and (min-width: 451px){
+@media only screen and (max-width: 600px) and (min-width: 451px)
+{
 body {
 	font-size: 0.95em;
 }
 }
-@media only screen and (max-width: 450px) {
+@media only screen and (max-width: 450px) 
+{
 body {
 	font-size: 0.9em;
 }
