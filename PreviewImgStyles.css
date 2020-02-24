@@ -1,0 +1,46 @@
+/*-----FIXING STUFF------*/
+*, *:before, *:after {
+  -moz-box-sizing: border-box; -webkit-box-sizing: border-box; box-sizing: border-box;
+ }
+
+.clearfix:after {
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+} 
+
+/*-----BASCIS------*/
+
+/*html {
+  background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(247,202,18,1) 100%) no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}*/
+body {
+	color: #333D3C;
+	font-family: 'Work Sans', sans-serif;
+	font-size: 18px;
+	background: radial-gradient(circle, rgba(255,255,255,1) 50%, rgba(247,202,18,1) 100%) no-repeat center center fixed;
+}
+
+
+.onlybox {
+	display: flex;
+	flex-direction: column;
+}
+
+p {
+	/*width: 1200px;
+	height: 630px;*/
+	padding-top: 150px;
+	font-family: 'Pacifico', cursive; 
+	font-size: 150px;	
+	text-align: center;
+	justify-content: center;
+	align-content: center;
+}
